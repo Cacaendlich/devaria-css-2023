@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="public/css/devaria.css">
     <link rel="stylesheet" href="public/css/footer.css">
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/devstars.css">
 </head>
 <body>
     <header>
@@ -24,10 +25,11 @@
     </header>
     
     <main>
-        <h1 class="title">Rancking DevStars</h1>
-        <h2>Como funcionam os pontos do DevStars?</h2>
-        <section>
-            <h3>Pontos recebidos através de desafios</h3>
+        <h1 class="title text-center">Rancking DevStars</h1>
+        <h2 class="sub-title text-center">Como funcionam os pontos do DevStars?</h2>
+
+        <section class="content-table" id="table">
+            <h3 class="sub-title2 text-center">Pontos recebidos através de desafios</h3>
             <table>
                 <tr>
                    <th>---</th>
@@ -44,14 +46,14 @@
             </table>
         </section>
 
-        <section>
-            <h3>Pontuações de comentários</h3>
+        <section class="content-table">
+            <h3 class="sub-title2 text-center">Pontuações de comentários</h3>
             <table>
                 <thead>
                     <th>---</th>
                     <th>Menos de 5</th>
                     <th>De 5 10</th>
-                    <th>Mais que 10</th>
+                    <th>10 +</th>
                 </thead>
 
                 <tbody>
@@ -65,10 +67,8 @@
             </table>
         </section>
 
-        <section>
-            <div>
-                <iframe src="https://www.devaria.com.br/devstars" width="1200" height="600"></iframe>
-            </div>
+        <section class="section-iframe-devstars">
+            <iframe class="iframe-devstars" src="https://www.devaria.com.br/devstars" "></iframe>
         </section>
     </main>
 

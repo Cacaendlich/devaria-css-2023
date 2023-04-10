@@ -1,1 +1,70 @@
 /* Estilo relacionado ao main do devstars */
+
+
+main section h3 {
+    font-size: 1.2em;
+}
+
+.sub-title2 {
+    font-size: 1em;
+}
+
+main section.content-table {
+    border: 1px solid #3bd42d;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 0;
+}
+
+main section table tr th,
+main section table tr td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #3bd42d;
+}
+
+main section table tr th:not(:first-child),
+main section table tr td:not(:first-child) {
+    border-left: 1px solid #3bd42d;
+}
+
+main section.section-iframe-devstars {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+main section iframe.iframe-devstars{
+    width: 296px;
+    height: 496px;
+    margin: auto;
+    border: 2px solid #25cbd3;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:768px){
+    main section.content-table {
+        width: 40%;
+        margin: 30px auto;
+    }
+
+    main section table tr th,
+    main section table tr td {
+        width: 1%;
+    }
+
+    main section.section-iframe-devstars {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 40px;
+        
+    }
+
+    main section iframe.iframe-devstars{
+        width: 596px;
+        height: 396px;
+        margin: auto;
+    }
+}
